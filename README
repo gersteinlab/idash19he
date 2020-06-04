@@ -1,0 +1,13 @@
+To compile:
+make compile
+
+To run:
+make run ID=id_of_database QUERY=name_of_the_query_file
+e.g.:
+make run ID=1 QUERY=query_tag_SNPs_1_genotypes.data
+make run ID=10 QUERY=query_tag_SNPs_10_genotypes.data
+
+The outputs are:
+- ypredID.data has the probabilities
+- targetID.data has the predicted values
+- timeID.data has the execution time (round trip, encryption, computation, decryption)
