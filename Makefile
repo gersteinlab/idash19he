@@ -1,4 +1,4 @@
-ID=1
+ID=10
 QUERY=query_tag_SNPs_${ID}_genotypes.data
 OUTPUT_PROBS=ypred${ID}.data
 OUTPUT_TARGETS=target${ID}.data
@@ -8,7 +8,7 @@ TIME_COMPUTATION=time_computation.tmp
 TIME_DECRYPTION=time_decryption.tmp
 TIME=time${ID}.data
 
-LIMIT_SNPS=9
+LIMIT_SNPS=5
 N_THREADS=8
 
 ALICE=alice
