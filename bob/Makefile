@@ -1,5 +1,5 @@
-ID=1# database ID
-LIMIT_SNPS=9# number of tag SNPs used to find the target SNP
+ID=10# database ID
+LIMIT_SNPS=5# number of tag SNPs used to find the target SNP
 N_THREADS=8
 
 # COMPILER
