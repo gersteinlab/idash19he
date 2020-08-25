@@ -1,10 +1,21 @@
+For training, go to bob/train folder and do
+
+make clean-all
+make all
+make deploy
+
+Above will create the training data when the tag SNPs are 10k bp apart from each other (using sorted_tag_SNPs_10k_genotypes.data) for 500 target SNPs in chromosome 1 (sorted_target_SNP_genotypes.data)
+
+Then go to the main folder
+
+
 To compile:
 make compile
 
 To run:
 make run ID=id_of_database QUERY=name_of_the_query_file
 e.g.:
-make run ID=1 QUERY=query_tag_SNPs_1_genotypes.data
+make run ID=1 QUERY=query_tag_SNPs_1_genotypes.data [for this, the training needs to be done sorted_tag_SNPs_10k_genotypes.data, whihc are tag SNPs 1k apart from each other]
 make run ID=10 QUERY=query_tag_SNPs_10_genotypes.data
 
 The outputs are:
