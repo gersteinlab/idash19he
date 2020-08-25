@@ -1,4 +1,4 @@
-ID=1# database ID
+ID=10# database ID
 LIMIT_SNPS=5# number of tag SNPs used to find the target SNP
 LIMIT_INDIVIDUALS=40# number of individuals used to find the target SNP
 RATIO=100,0# ratio of individuals used as reference or test during training
