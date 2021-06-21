@@ -22,3 +22,5 @@ The outputs are:
 - ypredID.data has the probabilities
 - targetID.data has the predicted values
 - timeID.data has the execution time (round trip, encryption, computation, decryption)
+
+If you prefer to use the Docker file, please create a folder called idash and upload everything but Dockerfile and run_idash.sh in that folder.
