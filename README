@@ -1,3 +1,6 @@
+doi:10.5281/zenodo.5542001
+
+
 For training, go to bob/train folder and do
 
 make clean-all
